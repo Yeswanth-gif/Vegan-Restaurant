@@ -1,0 +1,693 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+input, textarea {
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png');
+    background-position: left;
+    background-size: cover;
+}
+
+nav {
+    background-color: white;
+    width: 100%;
+    height: 77px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 28px;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+#logo {
+    width: 40px;
+}
+
+.menu-item {
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.dropdown-wrapper {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-wrapper:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    width: 150px;
+    border-top: 2px solid rgb(170, 210, 54);
+    padding: 20px;
+    position: absolute;
+    right: 24px;
+    background-color: white;
+    box-shadow: 0 2px 5px #ccc;
+    display: none;
+}
+
+.dropdown a {
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.dropdown a:last-of-type {
+    border: 0;
+}
+
+.menu-item i {
+    padding-left: 4px;
+}
+
+.primary-button {
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(170, 210, 54);
+    padding: 9px 34px;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 4px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+#landing-section {
+    width: 100%;
+    height: 100vh;
+}
+
+#main-text-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-text-wrapper > h1 {
+    width: 80%;
+    max-width: 1100px;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 8.8px;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0;
+}
+
+#main-text-wrapper p {
+    width: 85%;
+    max-width: 1100px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: #8b8b99;
+    text-align: center;
+    padding-top: 32px;
+}
+
+
+
+/* STEPS SECTION STYLES START */
+#steps-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+
+.step-item {
+    width: 25%;
+    padding: 112px 48px;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+}
+
+.step-item i {
+    font-size: 96px;
+    transition: all 0.3s;
+}
+
+.step-item:hover i{
+    transform: scale(1.1, 1.1);
+}
+
+.step-item h3 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.step-item p {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    margin-top: 0;
+}
+
+#first-step {
+    background-color: #5acda6;
+}
+
+#second-step {
+    background-color: #91ac41;
+}
+
+#third-step {
+    background-color: #e4b476;
+}
+
+#fourth-step {
+    background-color: #f69dad;
+}
+
+/* --step section ends-- */
+
+
+/* --section 3-- */
+
+#section-3 {
+    text-align: center;
+    background-color: #f7eee2;
+    padding-top: 70px;
+    
+}
+
+#fresh-food{
+    Color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+
+}
+
+#section-3 > h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+}
+
+#store-desc {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    margin: 0;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.store-item i {
+    background-color: #e3b375;
+    font-size: 60px;
+    color: white;
+    display: inline-block;
+    padding: 40px;
+    border-radius: 70px;
+    transition: all 0.3s;
+}
+
+.store-item h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+}
+
+.store-item p{
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 16px;
+
+    letter-spacing : 0.5px;
+    
+    font-weight : 500;
+
+    color: #8b8b99;
+}
+
+#Store1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    width: 85%;
+    max-width: 1140px;
+    /* align-items: center; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-bottom: 85px;
+}
+
+
+.store-item{
+    width: 25%;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+.store-item:hover i{
+    transform: scale(1.1, 1.1);
+}
+
+/* -- section 3 ends */
+
+/* Section 4 starts*/
+
+
+#testimonals{
+    text-align: center;
+    padding-bottom: 50px;
+}
+#test-food{
+    Color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+
+}
+
+#testimonals > h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+}
+
+#test-desc {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    margin: 0;
+    padding: 10px;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 50px;
+}
+
+.test-item {
+    padding: 50px 30px;
+    background-color: #f5f6fb;
+    border-top-left-radius : 45px;
+
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    margin: 20px;
+    width: 30%;
+
+}
+
+.test-item:hover{
+    box-shadow: 1px 2px 10px #ccc;
+}
+
+#testitems{
+    display: flex;
+    width: 85%;
+    max-width: 1140px;
+    justify-content: stretch;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.feedback{
+    font-size: 14px;
+
+    letter-spacing: 0.5px;
+
+    font-style: Italic;
+
+    color: #8b8b99;
+}
+.author-name{
+    font-style: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.profession{
+    font-size: 12px;
+
+    color: #8b8b99;
+
+    font-style: Italic;
+
+    margin: 0;
+
+}
+
+/* Section 4 ends */
+
+/* section 5 starts */
+#leftone  > img{
+    width: 100%;
+}
+
+#follow-us{
+    display: flex;
+}
+
+#rightone{
+
+    width: 60%;
+    margin: 0;
+    display: inline-block;
+    background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png);
+    background-position: left;
+    background-size: cover;
+}
+#text-wrapper{
+    padding-top: 20%;
+}
+#text-wrapper > h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+
+#text-wrapper > p{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    color: #8b8b99;
+    margin-top: 0px;
+    padding-bottom: 40px;
+
+}
+
+#email-input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 30px;
+    padding-left: 5px;
+    background-color: white;
+    outline: none;
+    border: 0;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+#submit{
+    display: block;
+    padding: 10px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f69dad;
+    border: 1px solid #f69dad;;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#submit:hover{
+    background-color: white;
+    cursor: pointer;
+}
+/* Section 5 ends */
+
+/* Section 6 starts */
+#stats{
+    background-color: #f6fcfa;
+    padding: 40px;
+}
+#stats-wrapper{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+#stats p{
+    color: #57e3b5;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    margin: 0;
+}
+
+#stats-wrapper h3{
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0px;
+    padding-top: 30px;
+    margin-left: 50px;
+    margin-right: 0px;
+} 
+
+/* Section 6 ends */
+
+/* Section 7 starts */
+#video-section{
+    text-align: center;
+    margin-bottom: 0px;
+    height: 700px;
+}
+
+#video-section > h1 {
+    font-weight: 400;
+    font-size: 45px;
+    color: #8b8b99;
+    /* border-bottom: 1px solid #e3b375 ; */
+}
+
+#video-section > div{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+iframe{
+    width: 60%;
+    height: 600px;
+    max-width: 1140px;
+}
+
+#video-section > p{
+    width: 100px;
+    border-bottom: 1px solid #e3b375;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+/* Section 7 ends */
+
+/* Section 8 starts */
+
+#address-wrapper{
+    width: 100%;
+
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px;
+}
+
+#address-wrapper > div{
+    width: 50%;
+}
+
+#address-wrapper > div:last-of-type{
+    width: 40%;
+}
+.note {
+    Color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+}
+.description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    line-height: 2;
+    margin: 0;
+}
+
+.main-heading{
+    font-weight: 600;
+    font-size: 50px;
+    padding: 0px;
+    margin: 0;
+}
+
+.side-heading {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 32px;
+}
+
+.address-desc{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    line-height: 2;
+    margin: 0;
+}
+
+#address-wrapper input:first-of-type {
+    margin-top: 12px;
+}
+
+input, textarea{
+    width: 90%;
+    display: block;
+    padding: 15px 30px;
+    padding-left: 5px;
+    outline: none;
+    margin-bottom: 10px;
+    box-sizing: border-box;    
+    border-radius: 6px;
+    border: 1px solid #e5e6ec;
+    margin-bottom: 16px;
+    font-size: 15px;
+    color: #8b8b99;
+
+}
+
+#btn-submit {
+    width: 170px;
+    font-size: 15px;
+    max-width: 170px;
+}
+/* Section 8 ends */
+
+footer{
+    background-color: #232323;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+
+
+@media screen and (max-width : 900px) {
+    .menu-item{
+        display: none;
+    }
+    #steps-section{
+        display: block;
+    }
+
+    .step-item{
+        width: 100%;
+    }
+
+    #Store1 {
+        display: block;
+    }
+    .store-item{
+        width: 100%;
+    }
+
+    #main-text-wrapper h1 {
+        font-size: 35px;
+        
+    }
+    #testitems{
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+    .test-item{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #follow-us{
+        display: block;
+    }
+
+    #rightone{
+        width: 100%;
+        padding-top: 0;
+    }
+    #text-wrapper h1 {
+        text-align: left;
+        padding-left: 10px;
+        font-size: 28px;
+    }
+
+    #text-wrapper p{
+        width: 100%;
+        padding-left: 10px;
+    }
+    #text-wrapper{
+        padding-top: 0;
+        text-align: left;
+    }
+
+    #email-input{
+        width: 80%;
+        margin-left: 10px;
+    }
+
+    #stats-wrapper{
+        display: block;
+        text-align: center;
+
+    }
+
+    iframe{
+        width: 100%;
+    }
+
+    #address-wrapper {
+        display: block;
+    }
+
+    #address-wrapper > div{
+        padding-left: 20px;
+        width: 100%;
+    }
+
+    #address-wrapper  div:last-of-type{
+        width: 100%;
+    }
+
+
+}
